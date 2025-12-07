@@ -3,7 +3,7 @@
 A simple HTTP service that manages coupons and returns the best applicable coupon
 for a given user and cart, based on eligibility rules and discount logic.
 
----
+
 
 ## Tech Stack
 - Python 3.10+
@@ -11,7 +11,7 @@ for a given user and cart, based on eligibility rules and discount logic.
 - Uvicorn
 - Pydantic
 
----
+
 
 ## Project Overview
 This service allows:
@@ -21,7 +21,7 @@ This service allows:
 
 Data is stored in-memory for simplicity, as required by the assignment.
 
----
+
 
 ## APIs Implemented
 
@@ -30,7 +30,7 @@ Data is stored in-memory for simplicity, as required by the assignment.
 - `POST /best-coupon` – Get the best applicable coupon for a user and cart
 - `GET /health` – Health check endpoint
 
----
+
 
 ## How to Run
 
@@ -42,3 +42,4 @@ Data is stored in-memory for simplicity, as required by the assignment.
 ```bash
 pip install -r requirements.txt
 python main.py
+
